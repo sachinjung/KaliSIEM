@@ -1,0 +1,19 @@
+Setup instruction
+===============================
+sudo dpkg-reconfigure kali-grant-root
+sudo reboot
+sudo su
+sudo apt update && apt -y upgrade
+cd Desktop
+ls
+sudo apt -y install dos2unix
+dos2unix Kali-Purple-ELK-Setup.sh
+chmod +x Kali-Purple-ELK-Setup.sh
+sudo ./Kali-Purple-ELK-Setup.sh
+sudo systemctl status kibana
+sudo mousepad /var/log/kali-purple-siem-setup.log
+	Here you can find Elasticsearch enrollment token. Copy it
+	Open browser and go to http://IP of your Kali-Purple:5601
+	Paste the enrollment token in the box and hit continue. It will start configuring the ELK Stack and asks you for verification key
+	run the below command and copy the verification key then paste it into browser windows to start configuration
+sudo /usr/share/kibana/bin/kibana-verification-code
