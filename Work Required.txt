@@ -1,0 +1,29 @@
+Data Flow architecture
+
+Standalone Deployment Architecture
+
+Distributed Deployment Architecture
+
+Create Deployment Script
+	Standalone Deployment 
+	Distributed Deployment
+
+Create a demo manual
+
+Create a emulation and simulation manual
+	Create scripts
+	Create Sigma rules
+	Create STIX policies
+	Create demo dataset and integrate it into Elasticsearch
+	Create custom dashboard and custom filters for demo
+	Create Atomic Red Team/Caldera based Red Team TTPs and detection policies
+	Create MITTRE ATT&CK TTPs detection pattern
+	Create C2 Server TTPs (Havoc/Mythic) and detection system
+
+
+10-15 Articles on the main topic, use case, significance and benifits, market value proposition, Economics and technology use case, power of SOC, AI-Driven SOC and supporting topics
+
+2-3 Books
+1. Practical AI-Driven SOC-in-a-Box
+2. Hands-On SOC-in-a-Box Threat Hunting
+3. Security Operations with Soc-In-A-Box

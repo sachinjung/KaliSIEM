@@ -1,0 +1,3 @@
+Install dos2unix in ubuntu
+Convert by using "dos2unix SOC-In-A-Box_Demo_Docker_Deployment_Script.sh"
+Now, run the script with root privilege.
