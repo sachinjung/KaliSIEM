@@ -76,3 +76,5 @@ echo "server.ssl.key: /etc/kibana/kibana-server.key" | sudo tee -a /etc/kibana/k
 echo "server.publicBaseUrl: \"https://kali-purple.kali.purple:5601\"" | sudo tee -a /etc/kibana/kibana.yml
 
 sudo systemctl restart kibana
+
+# After completing the installation install Elastic Agent, Fleet Server and Elastic Endpoint to complete the stack
