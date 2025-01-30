@@ -78,3 +78,14 @@ echo "server.publicBaseUrl: \"https://kali-purple.kali.purple:5601\"" | sudo tee
 sudo systemctl restart kibana
 
 # After completing the installation install Elastic Agent, Fleet Server and Elastic Endpoint to complete the stack
+# Install OpenVas with 
+sudo systemctl enable postgresql
+sudo systemctl start postgresql
+sudo apt -y install gvm*
+sudo gvm-setup
+# Copy the user password for admin and complete installation
+sudo gvm-check-setup
+sudo gvm-start
+# Browse the https://IP:9392 to access OpenVAS application
+
+# Integrate OpenVAS with Elastic Stack XDR platform to share vulnerability assessment reports for Elastic security TI information
